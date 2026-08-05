@@ -1,5 +1,5 @@
-## CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
-# Aim
+# CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
+## Aim
 To create an Amazon S3 bucket for cloud storage and launch a virtual machine using Amazon EC2 in the AWS Management Console.
 Objectives
 After completing this experiment, students will be able to:
@@ -15,7 +15,7 @@ Software Requirements
 •	AWS Academy Learner Account / AWS Free Tier Account 
 •	Modern Web Browser (Chrome/Edge) 
 
-# Theory
+## Theory
 Amazon S3 (Simple Storage Service)
 Amazon S3 is an object storage service provided by AWS that stores unlimited amounts of data with high durability and availability.
 Features
@@ -27,7 +27,7 @@ Features
 •	Lifecycle Management 
 •	Encryption
  
-Part A – Creating an Amazon S3 Bucket
+### Part A – Creating an Amazon S3 Bucket
 Step 1
 Open the AWS console.
 URL: https://aws.amazon.com/console/
@@ -79,7 +79,7 @@ student-cloud-storage-001
 ├── Image.jpg
 └── Notes.pdf
 
-# Part B – Launching an Amazon EC2 Instance
+### Part B – Launching an Amazon EC2 Instance
 Step 1
 Type EC2 in the AWS search bar.
 Step 2
@@ -126,7 +126,7 @@ Pending
    ↓
 Running
 
-# Connecting to the EC2 Instance
+### Connecting to the EC2 Instance
 Step 1
 Open EC2.
 
@@ -146,7 +146,7 @@ Step 6
 Execute the following command:
 echo "Hello AWS"
 
-# Output
+## Output
 <img width="913" height="892" alt="Exp2 b" src="https://github.com/user-attachments/assets/147fad32-af34-487a-9c6f-7f7536a69ab2" />
 <img width="908" height="963" alt="Exp2 c" src="https://github.com/user-attachments/assets/44dab691-bfee-4ea5-b459-0ab55eaa452f" />
 <img width="918" height="971" alt="Exp2 c2" src="https://github.com/user-attachments/assets/27e9e7f1-5dfa-4999-8fc5-e232afb7af8b" />
@@ -182,6 +182,6 @@ Logging Out of AWS
 1.	Click the profile icon in the upper-right corner. 
 2.	Select Sign out. 
 
-# Result
+## Result
 The Amazon S3 bucket was created successfully, files were uploaded, an EC2 instance was launched, and the virtual machine was connected successfully.
 
